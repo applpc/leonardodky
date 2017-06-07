@@ -1,6 +1,13 @@
+//WiFi BackDoor
+
 /*
- * Generated with <3 by Dckuino.js, an open source project !
- */
+This code opens up command prompt and creates a network that the target PC hosts, 
+which can be accessed using the SSID and password in the code below. 
+Feel free to change the SSID and password to whatever you would like.
+To stop the hosted network, go into cmd and run the command "NETSH WLAN stop hostednetwork".
+I had to change some commands to get it to work properly, but it works now!
+The original file can be found here: https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payload---wifi-backdoor
+*/
 
 #include "Keyboard.h"
 
