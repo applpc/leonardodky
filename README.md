@@ -4,7 +4,7 @@ Based off of <a href=http://seytonic.com/2016/11/04/3-usb-rubber-ducky/>Seytonic
 
 Ducky code to Arduino code converter: http://seytonic.com/ducky/
 
-<img src=https://drotek.com/shop/752-thickbox_default/leonardo-pro-micro-atmega32u4-arduino.jpg style="width:304px;height:228px;">
+<img src=https://drotek.com/shop/752-thickbox_default/leonardo-pro-micro-atmega32u4-arduino.jpg width="500" height="500">
 
 Leonardodky is a project that uses an arduino Leonardo/Micro that emulates a HID (human interface device) to inject keystrokes onto a computer. This supports Windows, Mac, and Linux operating systems. 
 
