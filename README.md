@@ -9,3 +9,5 @@ Ducky code to Arduino code converter: http://seytonic.com/ducky/
 Leonardodky is a project that uses an arduino Leonardo/Micro that emulates a HID (human interface device) to inject keystrokes onto a computer. This supports Windows, Mac, and Linux operating systems. 
 
 The scripts included are arduino scripts that can be used as payloads. All you have to do is upload the code to your Arduino, and it should work when you plug it into a computer.
+
+Other additions to the Arduino include dip switches and a microSD card reader. Seytonic made a great video on how to make this <a href=https://www.youtube.com/watch?v=QrwqeI99I8E>here</a>.
