@@ -10,4 +10,4 @@ Leonardodky is a project that uses an arduino Leonardo/Micro that emulates a HID
 
 The scripts included are arduino scripts that can be used as payloads. All you have to do is upload the code to your Arduino, and it should work when you plug it into a computer.
 
-Other additions to the Arduino include dip switches and a microSD card reader. Seytonic made a great video on how to make this <a href=http://seytonic.com/2016/11/04/3-usb-rubber-ducky/>Seytonic's Arduino Leonardo BadUSB</a>
+Other additions to the Arduino include dip switches and a microSD card reader. Seytonic made a great video on how to make this <a href=http://seytonic.com/2016/11/04/3-usb-rubber-ducky/>here</a>
